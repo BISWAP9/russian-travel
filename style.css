@@ -253,3 +253,17 @@
   background-position: center;
   position: relative;
 }
+
+.footer {
+  max-width: 1184px;
+  display:flex;
+  justify-content: space-between;
+  margin: 92px 48px 24px;
+}
+.footer__links {
+  align-self: flex-end;
+}
+.footer__link {
+}
+.footer__copyright {
+}
