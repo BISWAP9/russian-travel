@@ -266,10 +266,24 @@
   justify-content: space-between;
   margin: 92px 48px 24px;
 }
-.footer__links {
-  align-self: flex-end;
-}
+
 .footer__link {
+  font-size: 16px;
+  line-height: 1.12;
+  font-weight: 400;
+  text-decoration: none;
+  color: #fff;
+  margin-right: 18px;
 }
+
+.footer__link:last-child {
+  margin: 0;
+}
+
 .footer__copyright {
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
 }
