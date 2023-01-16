@@ -214,26 +214,32 @@
   display: flex;
   max-width: 1184px;
 }
-.cover__title {
+
+.cover__text-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+.cover__title {
   max-width: 560px;
   font-weight: 900;
   font-size: 72px;
   line-height: 1.06;
   text-align: center;
-  align-content: center;
-  margin: 245px 312px 32px;
-  z-index: 2;
+  margin: 0;
 }
 .cover__subtitle {
+  max-width: 360px;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.22;
   text-align: center;
-  max-width: 360px;
-  position: absolute;
-  margin: 429px 412px 245px;
-  z-index: 2;
+  margin: 32px 0 0;
 }
 .cover__overlay {
   width: 100%;
