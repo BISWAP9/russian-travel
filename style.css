@@ -1,28 +1,32 @@
 .page {
-  max-width: 1280px;
-  margin: 0 auto;
   font-family: 'Inter', 'Arial', sans-serif;
   background: #2A2C2F;
   color: #fff;
+  margin: 28px 0px 24px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+  transition: all 1s;
 }
-
+.hide {
+  display: none !important;
+}
 .header {
   max-width: 1184px;
-  margin: 28px 48px 48px;
   display: flex;
   justify-content: space-between;
+  margin: 0 48px 56px;
 }
 
 @media screen and (max-width: 1023px) {
   .header {
     margin-left: 24px;
     margin-right: 24px;
+    margin-bottom: 48px;
   }
 }
 
@@ -48,6 +52,7 @@
 
 .header__lang-list {
   margin: 18px 0 6px;
+  align-self: flex-end;
 }
 
 .header__lang-list:first-child {
@@ -60,7 +65,11 @@
   font-size: 24px;
   line-height: 1.17;
 }
-
+@media screen and (max-width: 767px) {
+  .header__lang-list {
+    margin-top: 14px;
+  }
+}
 @media screen and (max-width: 767px) {
   .header__lang-link {
     font-size: 18px;
@@ -82,13 +91,13 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 1279) {
+@media screen and (max-width: 1024) {
   .lead {
     margin-left: 48px;
     margin-right: 48px;
   }
 }
-@media screen and (max-width: 1023) {
+@media screen and (max-width: 768) {
   .lead {
     margin-left: 0;
     margin-right: 0;
@@ -96,14 +105,31 @@
 }
 
 .lead__title {
-  max-width: 720px;
+  width: 73.17%;
   font-size: 96px;
   line-height: 1.04;
   text-align: center;
   font-weight: 900;
   margin: 0 132px;
 }
-
+@media screen and (max-width: 1024px) {
+  .lead__title {
+    margin-left: 104px;
+    margin-right: 104px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .lead__title {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .lead__title {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
 @media screen and (max-width: 767) {
   .lead__title {
     font-size: 40px;
@@ -112,7 +138,7 @@
 }
 
 .lead__subtitle {
-  max-width: 640px;
+  width: 65.04%;
   font-weight: 400;
   font-size: 30px;
   line-height: 1.2;
