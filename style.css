@@ -1,3 +1,5 @@
+@import url(./vendor/fonts/fonts.css);
+
 .page {
   font-family: 'Inter', 'Arial', sans-serif;
   background: #2A2C2F;
@@ -302,6 +304,7 @@
   margin: 0;
   padding: 0;
 }
+
 @media (max-width: 768px) {
   .header {
     margin-left: 24px;
