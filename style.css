@@ -12,7 +12,7 @@
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
   box-sizing: border-box;
-  transition: all 1.5s ease-in;
+  transition: all .9s ease-in;
 }
 .hide {
   display: none !important;
@@ -144,7 +144,7 @@
   padding: 0;
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
   gap: 16px;
 }
 
@@ -154,7 +154,7 @@
 }
 
 .places {
-  margin: 92px 148px;
+  margin: 83px 148px 100px;
 }
 
 .place {
@@ -165,7 +165,7 @@
   "img paragraph";
   column-gap: 40px;
   row-gap: 48px;
-  margin: 0 0 80px;
+  margin: 0 0 70px;
 }
 
 .place:last-child {
@@ -285,7 +285,7 @@
 }
 @media (max-width: 768px) {
   .footer {
-    margin-top: 88px;
+    margin-top: 79px;
     margin-left: 24px;
     margin-right: 24px;
   }
@@ -353,7 +353,12 @@
     margin-bottom: 48px;
   }
 }
-
+@media (max-width: 1024px) {
+  .header {
+    width: 92%;
+    margin-bottom: 50px;
+  }
+}
 @media (max-width: 424px) {
   .header {
     margin-left: 16px;
@@ -371,16 +376,21 @@
     margin-top: 14px;
   }
 }
+/* @media (max-width: 1024px) {
+  .header__lang-list {
+    margin-right: 2px;
+  }
+} */
 @media (max-width: 767px) {
   .header__lang-link {
     font-size: 18px;
     line-height: 1.11;
   }
 }
-@media screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .lead {
-    margin-left: 48px;
-    margin-right: 48px;
+    margin-left: 49px;
+    margin-right: 40px;
   }
 }
 @media screen and (max-width: 1023px) {
@@ -439,7 +449,7 @@
 @media (max-width: 1024px) {
   .intro {
     margin-left: 48px;
-    margin-right: 286px;
+    margin-right: 275px;
   }
 }
 
@@ -485,6 +495,7 @@
   .places {
     margin-left: 48px;
     margin-right: 48px;
+    margin-top: 94px;
   }
 }
 @media (max-width: 768px) {
@@ -500,7 +511,8 @@ margin: 64px 0 66px;
 }
 @media (max-width: 1024px) {
   .place {
-    column-gap: 32px;
+    column-gap: 28px;
+    margin-bottom: 80px;
   }
 }
 @media (max-width: 768px) {
@@ -582,6 +594,11 @@ margin: 64px 0 66px;
   }
 }
 @media (max-width: 768px) {
+  .cover__text-center {
+    min-width: 530px;
+  }
+}
+@media (max-width: 1024px) {
   .cover__text-center {
     min-width: 560px;
   }
