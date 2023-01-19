@@ -227,12 +227,7 @@
   display: flex;
   max-width: 1184px;
 }
-@media (max-width: 1024px) {
-  .cover {
-    margin-left: 0;
-    margin-right: 0;
-  }
-}
+
 .cover__text-center {
   display: flex;
   flex-direction: column;
@@ -243,11 +238,7 @@
   transform: translate(-50%, -50%);
   z-index: 2;
 }
-@media (max-width: 768px) {
-  .cover__text-center {
-    min-width: 288px;
-  }
-}
+
 .cover__title {
   max-width: 560px;
   font-weight: 900;
@@ -257,17 +248,7 @@
   align-self: center;
   margin: 0;
 }
-@media (max-width: 768px) {
-  .cover__title {
-    font-size: 32px;
-    line-height: 1.09;
-  }
-}
-@media (max-width: 424px) {
-  .cover__title {
-    margin-bottom: 16px;
-  }
-}
+
 .cover__subtitle {
   max-width: 360px;
   font-weight: 400;
@@ -276,18 +257,7 @@
   text-align: center;
   margin: 32px 0 0;
 }
-@media (max-width: 768px) {
-  .cover__subtitle {
-    font-size: 14px;
-    line-height: 1.14;
-  }
-}
-@media (max-width: 424px) {
-  .cover__subtitle {
-    margin: 0;
-    align-self: center;
-  }
-}
+
 .cover__overlay {
   width: 100%;
   padding-bottom: 62.5%;
@@ -486,9 +456,9 @@
     margin-right: 24px;
   }
 }
-@media (max-width: 424px) {
+@media (max-width: 480px) {
   .places {
-    margin: 0;
+margin: 64px 0 66px;
   }
 }
 @media (max-width: 1024px) {
@@ -501,7 +471,7 @@
     column-gap: 28px;
   }
 }
-@media (max-width: 424px) {
+@media (max-width: 480px) {
   .place {
     grid-template-areas:
     "title"
@@ -510,7 +480,7 @@
     "paragraph";
     row-gap: 0;
     column-gap: 0;
-    margin-bottom: 0;
+    margin-bottom: 50px;
   }
 }
 @media (max-width: 768px) {
@@ -523,7 +493,7 @@
   .place__title {
     font-size: 32px;
     line-height: 1.09;
-    margin: 50px 16px 32px;
+    margin: 0 16px 32px;
   }
 }
 @media (max-width:1024px) {
@@ -560,5 +530,44 @@
   .place__paragraph {
     font-size: 16px;
     line-height: 1.63;
+  }
+  .place__paragraph:first-child {
+    margin-bottom: 25px;
+  }
+  .place__paragraph:last-child {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 1024px) {
+  .cover {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media (max-width: 768px) {
+  .cover__text-center {
+    min-width: 560px;
+  }
+}
+@media (max-width: 480px) {
+  .cover__text-center {
+    min-width: 250px;
+  }
+}
+@media (max-width: 480px) {
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 1.14;
+  }
+}
+@media (max-width: 480px) {
+  .cover__subtitle {
+    margin-top: 16px;
+  }
+}
+@media (max-width: 480px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: 1.09;
   }
 }
