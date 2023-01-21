@@ -1,0 +1,16 @@
+.place__text {
+  grid-area: paragraph;
+  margin: 0 0 86px;
+}
+
+@media (max-width: 1024px) {
+  .place__text {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .place__text {
+    margin: 32px 16px 0;
+  }
+}

@@ -6,3 +6,19 @@
   font-weight: 900;
   margin: 0 132px;
 }
+
+@media (max-width: 768px) {
+  .lead__title {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .lead__title {
+    font-size: 40px;
+    line-height: 1.1;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}

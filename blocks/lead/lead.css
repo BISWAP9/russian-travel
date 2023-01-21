@@ -5,4 +5,19 @@
   margin: 0 148px;
   align-items: center;
   justify-content: center;
+
+}
+
+@media (max-width: 1024px) {
+  .lead {
+    margin-left: 47px;
+    margin-right: 47px;
+  }
+}
+
+@media (max-width: 768px) {
+  .lead {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }

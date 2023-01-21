@@ -6,3 +6,23 @@
   text-align: center;
   margin: 32px 172px 64px;
 }
+
+@media (max-width: 1024px) {
+  .lead__subtitle {
+    margin: 30px 184px 55px 184px;
+  }
+}
+
+@media (max-width: 768px) {
+  .lead__subtitle {
+    margin: 32px 64px 55px;
+  }
+}
+
+@media (max-width: 480px) {
+  .lead__subtitle {
+    font-size: 16px;
+    line-height: 1.25;
+    margin: 16px 16px 40px;
+  }
+}

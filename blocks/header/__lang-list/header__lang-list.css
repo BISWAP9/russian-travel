@@ -6,3 +6,19 @@
 .header__lang-list:first-child {
   margin-right: 18px;
 }
+
+@media (max-width: 768px) {
+  .header__lang-list {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header__lang-list {
+    margin-top: 16px;
+  }
+
+  .header__lang-list:first-child {
+    margin-right: 21px;
+  }
+}

@@ -6,3 +6,24 @@
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 16px;
 }
+
+@media (max-width: 1024px) {
+  .photo-grid {
+    gap: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .photo-grid {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .photo-grid {
+    margin-left: 16px;
+    margin-right: 16px;
+    gap: 12px;
+  }
+}
