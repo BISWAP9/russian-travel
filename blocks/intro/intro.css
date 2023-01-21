@@ -12,12 +12,12 @@
 
 @media (max-width: 768px) {
   .intro {
-   margin: 85px 24px 85px;
+   margin: 90px 24px 85px;
   }
 }
 
 @media (max-width: 480px) {
   .intro {
-   margin: 63px 16px 64px;
+   margin: 66px 16px 64px;
   }
 }
