@@ -37,16 +37,25 @@
     margin-left: 0;
     margin-right: 0;
   }
+   .cover__overlay-link::before {
+    min-height: 640px;
+  }
 }
 
 @media (max-width: 768px) {
   .cover__overlay-link {
     min-height: 480px;
   }
+   .cover__overlay-link::before {
+    min-height: 480px;
+  }
 }
 
 @media (max-width: 480px) {
   .cover__overlay-link {
+    min-height: 200px;
+  }
+   .cover__overlay-link::before {
     min-height: 200px;
   }
 }

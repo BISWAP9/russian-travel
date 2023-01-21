@@ -8,7 +8,7 @@
   padding: 0;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 682px) {
   .footer__links {
   flex-direction: column;
   row-gap: 32px;
