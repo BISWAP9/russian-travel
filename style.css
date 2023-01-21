@@ -285,7 +285,7 @@
 }
 @media (max-width: 768px) {
   .footer {
-    margin-top: 79px;
+    margin-top: 88px;
     margin-left: 24px;
     margin-right: 24px;
   }
@@ -309,7 +309,7 @@
   .footer {
     flex-direction: column;
     align-items: stretch;
-    margin-top: 64px;
+    margin-top: 65px;
     margin-left: 16px;
   }
 }
@@ -348,7 +348,7 @@
 }
 @media (max-width: 768px) {
   .header {
-    width: 97%;
+    min-width: 720px;
     margin-left: 24px;
     margin-right: 24px;
     margin-bottom: 48px;
@@ -357,7 +357,7 @@
 @media (max-width: 1024px) {
   .header {
     width: 90.5%;
-    margin-bottom: 50px;
+    margin-bottom: 48px;
   }
 }
 @media (max-width: 480px) {
@@ -368,7 +368,7 @@
 }
 @media (max-width: 768px) {
   .header__lang-list {
-    margin-top: 14px;
+    margin-top: 20px;
   }
 }
 @media (max-width: 768px) {
@@ -428,7 +428,7 @@
 
 @media (max-width: 1024px) {
   .lead__subtitle {
-    margin: 30px 180px 55px 175px;
+    margin: 30px 184px 55px 184px;
   }
 }
 @media (max-width: 768px) {
@@ -462,8 +462,7 @@
 
 @media (max-width: 768px) {
   .intro {
-    margin-left: 24px;
-    margin-right: 24px;
+   margin: 88px 24px;
   }
 }
 
@@ -505,8 +504,7 @@
 }
 @media (max-width: 768px) {
   .places {
-    margin-left: 24px;
-    margin-right: 24px;
+   margin: 88px 24px 87px;
   }
 }
 @media (max-width: 480px) {
