@@ -4,18 +4,19 @@
   font-size: 30px;
   line-height: 1.2;
   text-align: center;
-  margin: 32px 172px 64px;
+  margin: 32px auto 64px;
 }
 
 @media (max-width: 1024px) {
   .lead__subtitle {
-    margin: 30px 184px 55px 184px;
+    margin-top: 30px;
+    margin-bottom: 55px;
   }
 }
 
 @media (max-width: 768px) {
   .lead__subtitle {
-    margin: 32px 64px 55px;
+    margin-top: 32px;
   }
 }
 
@@ -23,6 +24,7 @@
   .lead__subtitle {
     font-size: 16px;
     line-height: 1.25;
-    margin: 16px 16px 40px;
+    margin-top: 16px;
+    margin-bottom: 40px;
   }
 }

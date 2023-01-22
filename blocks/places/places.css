@@ -2,13 +2,13 @@
   margin: 84px 148px 101px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1150px) {
   .places {
     margin: 81px 48px 89px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 980px) {
   .places {
    margin: 88px 24px 87px;
   }

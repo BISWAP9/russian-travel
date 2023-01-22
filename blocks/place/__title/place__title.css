@@ -6,18 +6,25 @@
   font-weight: 900;
   margin: 0;
 }
-
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
+  .place__title {
+    max-width: 440px;
+  }
+}
+@media (max-width: 920px) {
   .place__title {
     font-size: 42px;
     line-height: 1.1;
   }
 }
-
+@media (max-width: 720px) {
+  .place__title {
+    margin: 0 16px 32px;
+  }
+}
 @media (max-width: 480px) {
   .place__title {
     font-size: 32px;
     line-height: 1.09;
-    margin: 0 16px 32px;
   }
 }

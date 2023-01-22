@@ -1,4 +1,4 @@
-.photo-grid {
+.photo-grid__list {
   margin: 0 48px;
   padding: 0;
   list-style: none;
@@ -8,20 +8,20 @@
 }
 
 @media (max-width: 1024px) {
-  .photo-grid {
+  .photo-grid__list {
     gap: 14px;
   }
 }
 
 @media (max-width: 768px) {
-  .photo-grid {
+  .photo-grid__list {
     margin-left: 24px;
     margin-right: 24px;
   }
 }
 
 @media (max-width: 480px) {
-  .photo-grid {
+  .photo-grid__list {
     margin-left: 16px;
     margin-right: 16px;
     gap: 12px;

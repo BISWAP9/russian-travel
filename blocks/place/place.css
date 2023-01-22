@@ -20,12 +20,6 @@
   }
 }
 
-@media (max-width: 768px) {
-  .place {
-    column-gap: 28px;
-  }
-}
-
 @media (max-width: 720px) {
   .place {
     grid-template-areas:

@@ -10,7 +10,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 920px) {
   .place__image {
     max-width: 340px;
   }
@@ -19,5 +19,11 @@
 @media (max-width: 720px) {
   .place__image {
     min-width: 100%;
+  }
+}
+
+@media (max-width: 424px){
+  .place__image {
+    max-width: 320px;
   }
 }

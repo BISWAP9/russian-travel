@@ -1,10 +1,10 @@
 .header__lang-list {
-  margin: 20px 0 6px;
+  margin: 20px 18px 6px 0;
   align-self: center;
 }
 
-.header__lang-list:first-child {
-  margin-right: 18px;
+.header__lang-list:last-child {
+  margin-right: 0;
 }
 
 @media (max-width: 768px) {
@@ -16,9 +16,6 @@
 @media (max-width: 480px) {
   .header__lang-list {
     margin-top: 17px;
-  }
-
-  .header__lang-list:first-child {
     margin-right: 19px;
   }
 }

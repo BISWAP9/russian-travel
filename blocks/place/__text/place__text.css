@@ -9,7 +9,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 720px) {
   .place__text {
     margin: 32px 16px 0;
   }
